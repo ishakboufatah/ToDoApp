@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-%zv#8%uj%&$k*c0wf)@m-##-283%d@oh&p*eaz6mn1n!3m&urx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1','http://sheordatabase.pythonanywhere.com/']
 CORS_ORIGIN_ALLOW_ALL = True
